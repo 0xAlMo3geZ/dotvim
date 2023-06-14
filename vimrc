@@ -128,7 +128,9 @@ let NERDTreeShowHidden=1
 " PLUGINS ---------------------------------------------------------------- {{{
 
 call plug#begin('~/.vim/plugged')
-
+  
+  Plug 'airblade/vim-gitgutter'
+  Plug 'tpope/vim-fugitive'
   Plug 'noahfrederick/vim-laravel'
   Plug 'Exafunction/codeium.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}

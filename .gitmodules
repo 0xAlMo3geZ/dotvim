@@ -25,3 +25,9 @@
 [submodule "plugged/vim-laravel"]
 	path = plugged/vim-laravel
 	url = https://github.com/noahfrederick/vim-laravel.git
+[submodule "plugged/vim-gitgutter"]
+	path = plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "plugged/vim-fugitive"]
+	path = plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
