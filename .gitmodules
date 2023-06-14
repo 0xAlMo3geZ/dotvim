@@ -22,6 +22,3 @@
 [submodule "plugged/vim-devicons"]
 	path = plugged/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
-[submodule "plugged/vim-laravel"]
-	path = plugged/vim-laravel
-	url = https://github.com/noahfrederick/vim-laravel.git
