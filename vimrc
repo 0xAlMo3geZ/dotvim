@@ -3,11 +3,11 @@ set nocompatible
 
 " Vim-Buffet Colors
 function! g:BuffetSetCustomColors()
-hi! BuffetCurrentBuffer cterm=NONE ctermbg=106 ctermfg=8 guibg=#ffffff guifg=#000000
+hi! BuffetCurrentBuffer cterm=NONE ctermbg=106 ctermfg=8 guibg=#b8bb26 guifg=#000000
 hi! BuffetTrunc cterm=bold ctermbg=66 ctermfg=8 guibg=#458588 guifg=#000000
 hi! BuffetBuffer cterm=NONE ctermbg=239 ctermfg=8 guibg=#504945 guifg=#000000
 hi! BuffetTab cterm=NONE ctermbg=66 ctermfg=8 guibg=#458588 guifg=#000000
-hi! BuffetActiveBuffer cterm=NONE ctermbg=10 ctermfg=239 guibg=#999999 guifg=#ffffff
+hi! BuffetActiveBuffer cterm=NONE ctermbg=10 ctermfg=239 guibg=#999999 guifg=#504945
 endfunction
 
 " set leader to space
@@ -62,6 +62,7 @@ set bg=dark
 autocmd vimenter * ++nested colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_italic=1
+let g:gruvbox_hide_endofbuffer=1
 
 " Add numbers to each line on the left-hand side.
 set number relativenumber
