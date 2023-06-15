@@ -136,7 +136,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'noahfrederick/vim-laravel'
   Plug 'Exafunction/codeium.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'morhetz/gruvbox' 
+  Plug 'morhetz/gruvbox'
   Plug 'preservim/nerdtree'
   Plug 'ryanoasis/vim-devicons'
   Plug 'vim-airline/vim-airline'
