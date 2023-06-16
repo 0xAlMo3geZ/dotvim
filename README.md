@@ -2,7 +2,7 @@
 
 Installation:
 
-    git clone git://github.com/muzakonthecode/dotvim.git ~/.vim
+    git clone https://github.com/muzakonthecode/dotvim.git ~/.vim
 
 Create symlinks:
 
