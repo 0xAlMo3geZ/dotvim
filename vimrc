@@ -1,6 +1,9 @@
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
+" Terminal settings
+set term=screen-256color
+
 " Vim-Buffet Colors
 function! g:BuffetSetCustomColors()
 hi! BuffetCurrentBuffer cterm=NONE ctermbg=106 ctermfg=8 guibg=#b8bb26 guifg=#000000
