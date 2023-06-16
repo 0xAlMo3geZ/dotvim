@@ -1,13 +1,5 @@
 {
-    "html-css-support.enabledLanguages": [
-        "html",
-        "vue",
-        "blade",
-        "htmldjango",
-        "typescriptreact",
-        "javascriptreact"
-    ],
-    "clangd.enabled": true,
+   "clangd.enabled": true,
     "clangd.path": "/usr/bin/clangd",
     "python.jediEnabled": true,
     "python.jediPath": "/usr/lib/python3/dist-packages"
